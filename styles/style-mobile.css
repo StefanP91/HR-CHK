@@ -1,0 +1,581 @@
+@media (max-width: 1440px) {
+
+    #successStoriesCarousel{
+        & .card{
+
+            & .linkedin-logo{
+                position: absolute;
+                top: 4vh;
+                right: 0vw !important;
+            }
+        }
+    }
+
+    #calculator{
+    
+        & .right-side{
+
+            & .calc-middle{
+    
+                & #installments{
+                    padding: 1% 13% 1% 2%;;
+                }
+    
+            }
+
+        }
+    
+    }
+
+    #instructorsCarousel .card{
+        height: 100%;
+        border: none;
+
+
+        & .card-body{
+            & img {
+                position: absolute;
+                top: 22vh;
+                left: 1vw;
+                width: 37px;
+                height: 37px;
+                
+            }
+
+            & img:hover{
+                cursor: pointer;
+                transform: scale(1.1);
+            }
+        }
+    }
+    #meetTheInstructors{
+        
+        #instructorsCarousel .card{
+            height: 100%;
+            border: none;
+
+    
+            & .card-body{
+                & img {
+                    position: absolute;
+                    top: 22vh;
+                    left: 1vw;
+                    width: 37px;
+                    height: 37px;
+                    
+                }
+    
+                & img:hover{
+                    cursor: pointer;
+                    transform: scale(1.1);
+                }
+            }
+        }
+    }
+    
+}
+
+@media (max-width: 1012px) {
+
+    & .nav{
+
+        & .waiting-btn{
+            display: none;
+        }
+    }
+
+    & .hero{
+        padding: 15% 0 7% 0 !important;
+
+        & .hero-upper-section{
+
+            & .waiting-btn{
+                display: block !important;
+            }
+        }
+    }
+}
+
+@media (max-width: 767px) {
+
+    .spots {
+        position: static;
+    }
+
+    & .nav{
+
+        margin-top: 0 !important;
+        position: static !important;
+
+        & .applications-text,
+        & .applications-number{
+            display: none;
+        }
+
+        .navbar-toggler{
+            color: #ffffff !important;
+            border:1px solid #ffffff !important;
+        }
+
+        & .navbar-toggler-icon{
+            --bs-navbar-toggler-icon-bg: url('data:image/svg+xml;charset=utf8,%3Csvg xmlns%3D"http://www.w3.org/2000/svg" viewBox%3D"0 0 30 30"%3E%3Cpath stroke%3D"white" stroke-width%3D"2" stroke-linecap%3D"round" stroke-miterlimit%3D"10" d%3D"M4 7h22M4 15h22M4 23h22"/%3E%3C/svg%3E');
+
+        }
+    }
+
+    & .hero{
+
+        padding: 15% 0 7% 0 !important;
+        position: static !important;
+
+
+        & .hero-bottom-section{
+            position: static !important;
+            margin:5% 3%;
+            width: auto !important;
+            transform: none !important;
+            padding: 0 !important;
+
+        }
+    }
+
+    #navigation{
+        background-color: #041C55;
+        padding: 0 2% !important;
+        margin-top: 0 !important;
+        z-index: 800;
+        top: 0 !important;
+    }
+
+    #meetTheInstructors {
+        & .intro {
+            & h2 {
+                text-align: center !important;
+            }
+        }
+    }
+
+    #instructorsCarousel .card{
+        height: 100%;
+        border: none;
+
+        & img{
+            position: relative;        
+        }
+
+        & .card-body{
+
+            & img {
+                position: absolute;
+                top: 45vh !important;
+                left: 1vw;
+                width: 37px;
+                height: 37px;
+            }
+        }
+    }
+
+    #modules {
+        & h2 {
+            text-align: center !important;
+        }
+    }
+
+    #modulesCarousel{
+
+        .carousel-indicators{
+            overflow-x: auto;
+            white-space: nowrap;
+            max-width: 100%;
+            scroll-behavior: smooth;
+        }
+        
+        .carousel-control-prev,
+        .carousel-control-next{
+            position: static !important;
+        }
+
+        .carousel-item{
+            overflow-y: auto;
+        }
+    }
+
+    #workWeekCarousel{
+        .carousel-control-prev,
+        .carousel-control-next{
+            position: static !important;
+        }
+    }
+
+    #workWeek{
+
+    
+        & .col-md-2{
+            padding: 0.3rem !important;
+            width: 100%;
+        }
+    }
+
+    #programs{
+        & .most-popular{
+            position: static;
+        }
+    }
+
+    #realProjects {
+        & .projects {
+            & h1 {
+                text-align: center !important;
+            }
+        }
+    }
+
+    #successStories{
+        & .intro {
+            & h1 {
+                text-align: center !important;
+            }
+        }
+
+        #successStoriesCarousel{
+
+            .carousel-control-prev,
+            .carousel-control-next{
+                position: static !important;
+            }
+
+            & .linkedin-logo{
+                position: absolute;
+                top: 4vh;
+                right: 5vw !important;
+            }
+        }
+    }
+
+    #studentStory{
+        
+        & .story{
+            height: auto !important;
+            padding: 5% 0 !important;
+        }
+
+        & .left-side{
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            height: 100%;
+            align-items: start;
+            justify-content: center;
+           
+        }
+
+        & .right-side{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: 3%;
+
+
+                    & .video-container {
+                        /* width: 100%; */
+                        height: 360px !important;
+                    }
+               
+       
+        }
+
+    }
+
+    #calculator {
+        & .left-side {
+            & h2 {
+                text-align: center !important;
+            }
+
+            & p {
+                text-align: center !important;
+            }
+        }
+
+        & .right-side {
+            & .calc-top {
+                & #chooseAcademy {
+                    .just-academy, & .eu-academy, & .us-academy{
+                        justify-content: center !important;
+                    }
+                }
+            }
+        }
+    }
+
+    #faq {
+        & h1 {
+            text-align: center !important;
+        }
+    }
+}
+
+@media (max-width: 500px) {
+    #navigation{
+        display: none !important;
+    }
+}
+
+@media (max-width: 425px) {
+    .spots {
+        display: none !important;
+    }
+
+    .nav-hero {
+        & .nav {
+            padding: 0 !important;
+        }
+
+        & .hero {
+
+            & .hero-upper-section {
+                & h1 {
+                    font-size: 26px;
+                }
+            }
+        }
+    }
+
+    #navigation{
+        display: none !important;
+    }
+
+    #experience{
+        padding: 5% 0% !important;
+        width: 100% !important;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #techSchool{
+        padding: 5% 0% !important;
+    }
+
+    #meetTheInstructors {
+        padding: 5% 0% !important;
+    }
+
+    #modules {
+        padding: 5% 0% !important;
+    }
+
+    #workWeek {
+        padding: 5% 0% !important;
+    }
+
+    #workWeekCarousel{
+        .carousel-control-prev,
+        .carousel-control-next{
+            & img{
+                width: 42px;
+                height: 42px;
+            }
+        }
+    }
+
+    #realProjects {
+        padding: 5% 0% !important;
+       & .projects{
+           margin-left:0;
+       }
+       
+        & .card{
+        height: auto !important;
+       }
+    }
+
+    #furtherGuidance{
+        padding: 5% 0% !important;
+    }
+
+    #faq{
+        padding: 5% 0% !important;  
+    }
+
+    #instructorsCarouselMobile {
+        .carousel-control-prev,
+        .carousel-control-next{
+            position: static !important;
+        }
+
+        & .card{
+            border: none;
+
+                & .card-body{
+
+                & .card-title{
+                    color: #071336 !important;
+                    font-size: 18px;
+                    font-weight: 800;
+                    text-wrap: nowrap;
+                }
+
+                & img {
+                    position: absolute;
+                    top: 75vh !important;
+                    left: 4vw !important;
+                }
+            }
+        }
+    }
+
+    #newCareer{
+        padding: 5% 3%;
+    
+        & .col-md-7,
+        & .col-md-5{
+            padding: 0 !important;
+        }
+    
+        & .card{
+            width: 100% !important;
+            height: auto !important;
+            
+            .row{
+                width: 100% !important;
+            }
+            & .card-inner{
+                width: 100% !important;
+                justify-content: center !important;
+                align-items: center !important;
+    
+                & h2{
+                    font-size: 26px;
+                    text-wrap: wrap;
+                    width: 100% !important;
+                }
+    
+                & .stroke{
+                    display: none !important;
+                }
+    
+                & p, span{
+                    width: 100% !important;
+
+                }
+    
+                & button{
+                    border: none;
+                    border-radius: 9px;
+                    background-color: #EB3A7A;
+                    padding: 15px 20px;
+                    color: #ffffff;
+                    font-size: 20px;
+                    font-weight: 700;
+    
+                    &:hover{
+                        background-color: #0059FF;
+                        transform: scale(1.1);
+                        transition: 0.5s ease-in-out;
+                    }
+                }
+            }
+    
+            & .img-container{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                overflow: visible;
+                height: 100%;
+                position: relative;
+    
+                & img{
+                    position: absolute;
+                    bottom: 0;
+                    left: 0; 
+                }
+            }
+        }
+        
+    }
+
+    #successStories {
+        padding: 5% 0% !important;
+        & #successStoriesCarousel {
+            & .card {
+                border-left: 0 !important;
+                text-align: center;
+                border-top: 6px solid rgba(7, 19, 54, 0.79);
+
+                & .linkedin-logo {
+                    position: absolute;
+                    top: 4vh;
+                    right: 24vw !important;
+                }
+            }
+        }
+    }
+
+    #calculator {
+        & .right-side {
+            & .calc-top {
+                & #chooseAcademy {
+                    & label {
+                        font-size: 16px;
+                        font-weight: 600;
+                        cursor: pointer;
+                        text-wrap: nowrap;
+                        padding: 2% 5%;
+                        width: 100% !important;
+                    }
+                }
+            }
+        }
+
+        & .calc-middle {
+            & #installments {
+                padding: 1% 28% 1% 2% !important;
+            }
+        }
+    }
+
+    #studentStory {
+        & .story {
+            & .left-side {
+                & hr {
+                    display: none !important;
+                }
+            }
+        }
+    }
+
+    #diplomas {
+        padding: 5% 0% !important;
+        & .vstack {
+            height: auto !important;
+        }
+    }
+
+    #programs {
+        & .pricing-card {
+            & .pricing-top {
+                padding: auto 1% !important;
+                height: 165px !important;
+            }
+
+            & .pricing-middle {
+                padding: 5% 5% 14% 5%;
+            }
+        }   
+    }   
+
+
+    .row{
+        margin-right: 0 !important;
+        margin-left: 0 !important;
+    }
+
+
+
+
+
+   
+
+
+}
