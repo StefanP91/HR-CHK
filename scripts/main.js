@@ -83,6 +83,8 @@ videoContainer.addEventListener('mouseleave', function() {
 pauseButton.style.display = 'none';
 });
 
+
+
 // Slider hiring partners and hero slider
 
 document.addEventListener("DOMContentLoaded", () => {
